@@ -8,4 +8,13 @@
     <h1>{{ title }}</h1>
     <p>Welcome to {{ title }}</p>
   </body>
+  <form action="" method="get" class="form-example">
+    <div class="form-example">
+        <label for="nom_ville">Entrez votre ville: </label>
+        <input type="text" name="nom_ville" id="nom_ville" required>
+    </div>
+    <div class="form-example">
+        <input type="submit" value="Valider!">
+    </div>
+    </form>
 </html>
